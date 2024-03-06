@@ -25,6 +25,9 @@ bash Miniconda.sh -b  # installs it
 rm -rf Miniconda.sh  # removes the installer
 export PATH="/root/miniconda3/bin:$PATH"  # prepends the new path
 
+# Running cells with 'Python 3.12.2 ('base')' requires ipykernel package.
+conda install -y -n base ipykernel --update-deps --force-reinstall
+
 
 
 # INSTALL PYTHON LIBRARIES
