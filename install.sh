@@ -32,3 +32,10 @@ conda install -y -n base ipykernel --update-deps --force-reinstall
 
 # INSTALL PYTHON LIBRARIES
 conda install -y pandas  # installs pandas
+
+
+
+
+pip install --upgrade pip  # upgrading the package manager
+pip install fastapi uvicorn[standard]
+pip install q  # logging and debugging
