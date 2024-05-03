@@ -31,7 +31,10 @@ conda install -y -n base ipykernel --update-deps --force-reinstall
 
 
 # INSTALL PYTHON LIBRARIES
+# NumPy comes already installed with Miniconda
 conda install -y pandas  # installs pandas
+conda install -y lxml # this is optional if we want to work with webpages scraping or reading from HTML pages.
+conda install numba
 
 
 

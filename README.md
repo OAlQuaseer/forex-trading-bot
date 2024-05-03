@@ -8,6 +8,6 @@
 
 
 
-# to run the APIs server: uvicorn main:app --reload
+# to run the APIs server: uvicorn src.apis.api_reference_impl:app --reload
 
 # APIs documentation:  http://127.0.0.1:8000/redoc, http://127.0.0.1:8000/doc 
